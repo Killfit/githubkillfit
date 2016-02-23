@@ -8,10 +8,6 @@
 body {
     background-color: lightblue;
 }
-</style>
-body {
-    background-color: lightblue;
-}
 
 div {
     background-color: lightgrey;
@@ -98,6 +94,27 @@ footer {
     clear:both;
     text-align:center;
     padding:5px; 
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
 </style>
 
