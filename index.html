@@ -2,6 +2,57 @@
 
 <html>
   <head>
+    <head>
+<style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Animated Button</h2>
+
+<button class="button" style="vertical-align:middle"><span>EXPOLORE </span></button>
+
+</body>
+
     <meta charset="uft-8"/>
       <title>misfit Personal profile </title>
       <style>
@@ -112,7 +163,9 @@ RWANDA<br>
 <div id="section">
     <h1>KENYA</h1>
     <p>Improve Your Quality Of Life
-    There are many benefits of regular exercise and physical activity such as risk reduction of having a heart attack,diabetes,  high cholesterol, blood pressure, or reduction of bone density.Beyond these health related factors, a sound fitness program may help improve other intangibles like your overall self-confidence,
+    There are many benefits of regular exercise and physical activity such as risk reduction of having a heart attack, <br>
+    diabetes,  high cholesterol, blood pressure, or reduction of bone density.<br>
+    Beyond these health related factors, a sound fitness program may help improve other intangibles like your overall self-confidence,<br>
     mental focus, energy levels, and overall quality of life (i.e.keeping up with the kids and intimacy with your significant other).</p>
 </div>
 
