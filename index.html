@@ -1,6 +1,48 @@
 <!DOCTYPE HTML>
 
 <html>
+  <style>
+#container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: yellow;
+}
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button>
+</p> 
+
+<div id ="container">
+<div id ="animate"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+</body>
   <head>
     <meta charset="uft-8"/>
       <title>misfit Personal profile </title>
@@ -68,25 +110,6 @@ div.desc {
     <input type="submit" value="Submit">
   </fieldset>
 </form>
-<p>Enter a number and click OK:</p>
-
-<input id="id1" type="number" min="100" max="300">
-<button onclick="myFunction()">OK</button>
-
-<p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    var inpObj = document.getElementById("id1");
-    if (inpObj.checkValidity() == false) {
-        document.getElementById("demo").innerHTML = inpObj.validationMessage;
-    } else {
-        document.getElementById("demo").innerHTML = "Input OK";
-    } 
-} 
-</script>
 <style>
 header {
     background-color:black;
