@@ -11,6 +11,9 @@ body {
 h1 {
     color: red;
     text-align: center;
+    
+    font-family: "Times New Roman";
+    font-size: 20px;
 }
 
 div {
