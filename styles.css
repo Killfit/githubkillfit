@@ -1,6 +1,16 @@
 
 <body style= "background-color:light pink;">
         <h1 style="background-color: grey;">MISFIT FITNESS</h1>
+<div class="container">
+  <h2>CATEGORIES</h2>
+  <button type="button" class="btn btn-showcase">SHOWCASE</button>
+  <button type="button" class="btn btn-products">PRODUCTS</button>
+  <button type="button" class="btn btn-contact us">CONTACT US</button>
+  <button type="button" class="btn btn-get started">GET STARTED</button>
+  <button type="button" class="btn btn-brand me">BRAND ME</button>
+  <button type="button" class="btn btn-login">LOGIN</button>
+  <button type="button" class="btn btn-logout">LOGOUT</button>      
+</div>
 
 #container {
   width: 400px;
