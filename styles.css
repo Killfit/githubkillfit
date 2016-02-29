@@ -1,4 +1,6 @@
 
+<body style= "background-color:light pink;">
+        <h1 style="background-color:orchid;">MISFIT FITNESS</h1>
 #container {
   width: 400px;
   height: 400px;
@@ -75,6 +77,7 @@ section {
     float:left;
     padding:10px; 
 }
+
 footer {
     background-color:black;
     color:white;
