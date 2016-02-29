@@ -1,14 +1,21 @@
 
 <body style= "background-color:light pink;">
         <h1 style="background-color: grey;">MISFIT FITNESS</h1>
-        
+  <select name="menu">
+    <option value="NEW FASHION">NEW FASHION</option>
+    <option value="SHOP">SHOP</option>
+    <option value="BRAND">BRAND</option>
+    <option value="MOST WANTED">MOST WANTED</option>
+    <option value="SALE">SALE</option>
+  </select>
+         
 <ul id="menu">
-  <li><a href="/NEW FASHION/default.asp">SHOWCASE</a></li>
-  <li><a href="/SHOP/default.asp">PRODUCTS</a></li>
-  <li><a href="/BRAND/default.asp">FITNESS PROGRAMS</a></li>
-  <li><a href="/MOST WANTED/default.asp">LOGIN/LOGOUT</a></li>
-  <li><a href="/SALE/default.asp">GET STARTED</a></li>
-</ul>  
+  <li><a href="/NEW FASHION/default.asp">NEW FASHION</a></li>
+  <li><a href="/SHOP/default.asp">SHOP</a></li>
+  <li><a href="/BRAND/default.asp">BRAND</a></li>
+  <li><a href="/MOST WANTED/default.asp">MOST WANTED</a></li>
+  <li><a href="/SALE/default.asp">SALE</a></li>
+</ul>         
 
 #container {
   width: 400px;
