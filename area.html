@@ -1,30 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Area of Circle</title>
+</head>
 <body>
-
-<h1>Calculating the Area of A Circle</h1>
-
-<p>Radius=121.</p>
-<p>Calculate.</p>
-<p>this is the area of a circle.</p>
-
-<p id="area"></p>
-
+<p>Please wenter Radius</p>
+<input type+"text"id="radius">
 <script>
-var pi = 3.142;
-var radius = "121";
-var answer = '3.142*121';
-
-//document.getElementById("area").innerHTML = pi;
-document.getElementById("area").innerHTML = area;
-//document.getElementById("area").innerHTML = answer;
+  function calculateArea(){
+    var radius;
+    var area;
+    radius=document.getElementById('radius').value;
+  }
 </script>
-
-<button type="button"
-onclick="document.getElementById('area').innerHTML = 'AREA OF A CIRCLE(3.142)'"
-Click me to display area of a circle.</button>
-
-<p id="area"></p>
-
+<button type="button"onclick=calculateArea()">Area</button>
 </body>
 </html> 
