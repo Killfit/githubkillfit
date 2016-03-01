@@ -85,7 +85,10 @@ section {
   <button type="button" class="btn btn-login">LOGIN</button>
   <button type="button" class="btn btn-logout">LOGOUT</button>      
 </div>     
-
+<ul class="pager">
+    <li><a href="#">Previous</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
 
 footer {
     background-color:black;
